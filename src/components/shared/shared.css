@@ -1,0 +1,41 @@
+.nice-button {
+    display: inline-block;
+    width: 4.7em;
+    height: 0.96em;
+    margin: 0 auto;
+    box-shadow: 0em 0.51em 0.41em rgba(0, 0, 0, 0.25);
+    border-radius: 2em;
+    text-decoration: none;
+    font-size: 0.55em;
+    color: #fff;
+    text-align: center;
+}
+
+.nice-button:hover {
+    text-decoration: none;
+}
+
+.nice-href {
+    color: #DA4480 !important;
+    text-decoration: none;
+}
+
+.horizontal-dots {
+    width: 1.5em;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.dot {
+    border-radius: 50%;
+}
+
+.horizontal-dot--size {
+    width: 0.2em;
+    height: 0.2em;
+}
+
+.horizontal-dot--color {
+    background: #FCE38A;
+}

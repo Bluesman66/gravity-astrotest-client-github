@@ -1,0 +1,43 @@
+.nav {
+    font-size: 0.6em;    
+    position: relative;
+    top: 0.5em;
+    right: 1.2em;
+}
+
+.nav__link {
+    color: #fff;
+    text-decoration: none;
+    transition: color .1s linear;
+}
+
+.nav__link:hover {
+    text-decoration: none;
+    color: #fce38a;
+}
+
+.stick {
+    width: 1.5em;
+    height: 0.15em;
+}
+
+.stick--position-upper {
+    position: relative; 
+    top: 0.3em;   
+}
+
+.stick--color-upper, .stick--color-lower {
+    background: #fff;
+}
+
+.stick--position-lower {
+    position: relative;
+    top: 0.8em;
+    right: 0.8em;
+}
+
+@media screen and (max-width: 414px) {
+    .header__logo--hide {
+        display: none;
+    }
+}

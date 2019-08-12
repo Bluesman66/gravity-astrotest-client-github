@@ -1,0 +1,18 @@
+#fp-nav ul li:hover a.active span, #fp-nav ul li a.active span, .fp-slidesNav ul li:hover a.active span, .fp-slidesNav ul li a.active span {
+    background-color: #DA4480;
+}
+
+@media screen and (max-width: 3840px) {
+    #fp-nav ul, .fp-slidesNav ul {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    #fp-nav ul, .fp-slidesNav ul {
+        display: initial;
+    }
+    #fp-nav.fp-right {
+        right: 0px;
+    }
+}

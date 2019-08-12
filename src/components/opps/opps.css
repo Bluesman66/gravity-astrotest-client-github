@@ -1,0 +1,142 @@
+@import '../shared/shared.css';
+.opps--dialog-props {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* === DESKTOP === */
+
+.opps--dialog-props {
+    width: 100% !important;
+    height: 100% !important;
+    min-width: 15em !important;
+    max-width: 15em !important;
+    min-height: 11em !important;
+    max-height: 11em!important;
+    margin: calc((100vh - 11em) / 2) auto !important;
+}
+
+.opps_header {
+    position: absolute;
+    width: 100%;
+    z-index: 1000;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.opps__close {
+    position: relative;
+    right: 0.4em;
+    top: 0.3em;
+    width: 1.5em;
+    height: 1.5em;
+    background: #DA4480;
+    border-radius: 50%;
+}
+
+.opps__cross {
+    position: absolute;
+    top: 0.38em;
+    left: 0.28em;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.3em;
+    color: #fff;
+}
+
+.opps__cross:hover {
+    text-decoration: none;
+}
+
+.opps--content-props {
+    margin: auto;
+    position: relative;
+}
+
+.opps--content-props {
+    width: 100% !important;
+    height: 100% !important;
+    border: none !important;
+    border-radius: 0.4em !important;
+    background-color: #fff0 !important;
+}
+
+/* === TABLET === */
+
+@media screen and (max-width: 1024px) and (max-height: 1366px) {
+    .opps--dialog-props {
+        width: 100% !important;
+        height: 100% !important;
+        min-width: 12em!important;
+        max-width: 12em !important;
+        min-height: 9em !important;
+        max-height: 9em !important;
+        margin: calc((100vh - 9em) / 2) auto !important;
+    }
+}
+
+/* === SMALL DESKTOP === */
+
+@media screen and (max-width: 640px) and (max-height: 360px) {}
+
+/* === PHONE === */
+
+@media screen and (max-width: 414px) {}
+
+.opps__body {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(0deg, rgba(78, 76, 133, 0.95) 0%, #3A3781 100%);
+    box-shadow: 0em 0.1em 0.1em rgba(0, 0, 0, 0.25);
+    border-radius: 0.4em;
+}
+
+.opps__title-pict {
+    display: inline-block;
+    width: 2em;
+    margin-right: 0.2em;
+}
+
+.opps__title-text {
+    display: inline-block;
+    font-size: 1.5em;
+    line-height: 1.5em;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 8%;
+}
+
+.opps__text {
+    width: 80%;
+    font-size: 0.7em;
+    line-height: 1em;
+    font-style: normal;
+    font-weight: normal;
+    text-align: center;
+    color: #fff;
+    margin-top: 0.8em;
+}
+
+/* === TABLET === */
+
+@media screen and (max-width: 1024px) and (max-height: 1366px) {
+    .opps__title-text {
+        font-size: 1.2em;
+        line-height: 1.2em;
+    }
+}
+
+/* === PHONE === */
+
+@media screen and (max-width: 414px) {
+    .opps__title-text {
+        font-size: 1.1em;
+        line-height: 1.1em;
+    }
+    .opps__text {
+        font-size: 0.65em;
+    }
+}
