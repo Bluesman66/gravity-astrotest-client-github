@@ -14,9 +14,9 @@ const Header = () => {
 
     return (
         <HeaderContainer>
-            <HeaderLeftLink width="6em" to="/">
-                <HeaderLogoImage size="1.8em" />
-                <HeaderLogoText size="0.9em">Gravity</HeaderLogoText>
+            <HeaderLeftLink to="/">
+                <HeaderLogoImage />
+                <HeaderLogoText>Gravity</HeaderLogoText>
             </HeaderLeftLink>
             <HeaderRight>
                 <HeaderNavLink href="#">Menu</HeaderNavLink>
