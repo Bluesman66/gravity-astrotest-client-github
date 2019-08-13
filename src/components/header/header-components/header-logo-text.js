@@ -3,7 +3,7 @@ import { device } from '../../shared';
 
 const HeaderLogoText = styled.div`
     display: inline-block;
-    font-size: ${props => props.size};
+    font-size: ${props => props.size || "0.9em"};
     font-weight: bold;
     color: #fff;
     text-decoration: none;

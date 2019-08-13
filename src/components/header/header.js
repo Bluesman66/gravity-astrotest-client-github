@@ -1,29 +1,27 @@
 import React from 'react';
 
-import { 
-    HeaderContainer, 
-    HeaderLeftLink, 
+import {
+    HeaderContainer,
+    HeaderLeftLink,
     HeaderRight,
     HeaderLogoImage,
-    HeaderLogoText } from './header-components';
-
-import './header.css';
+    HeaderLogoText,    
+    HeaderNavLink,
+    HeaderStick
+} from './header-components';
 
 const Header = () => {
 
     return (
         <HeaderContainer>
             <HeaderLeftLink width="6em" to="/">
-                <HeaderLogoImage size="1.8em"/>
-                <HeaderLogoText size="0.9em">Gravity</HeaderLogoText>                
+                <HeaderLogoImage size="1.8em" />
+                <HeaderLogoText size="0.9em">Gravity</HeaderLogoText>
             </HeaderLeftLink>
             <HeaderRight>
-                <nav className="nav">
-                    {/* eslint-disable-next-line */}
-                    <a className="nav__link" href="#">Menu</a>
-                </nav>
-                <div className="stick stick--position-upper stick--color-upper"></div>
-                <div className="stick stick--position-lower stick--color-lower"></div>
+                <HeaderNavLink href="#">Menu</HeaderNavLink>
+                <HeaderStick top="0.3em"></HeaderStick>
+                <HeaderStick top="0.8em" right="0.8em"></HeaderStick>                
             </HeaderRight>
         </HeaderContainer>
     );

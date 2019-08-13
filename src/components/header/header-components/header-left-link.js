@@ -5,7 +5,7 @@ const HeaderLeftLink = styled(Link)`
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: ${props => props.width};
+    width: ${props => props.width || "6em"};
     margin-left: 0.5em;
 `
 

@@ -6,8 +6,8 @@ const HeaderLogoImage = styled.div`
     background-image: url(${logo});
     background-repeat: no-repeat;
     background-size: cover;
-    height: ${props => props.size};
-    width: ${props => props.size};
+    height: ${props => props.size || "1.8em"};
+    width: ${props => props.size || "1.8em"};
 `
 
 export default HeaderLogoImage;
