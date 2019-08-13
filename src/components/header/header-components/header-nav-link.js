@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 
 const HeaderNavLink = styled.a`
+    font-family: 'Gilroy Light', sans-serif;
     font-size: ${props => props.size || "0.6em"};    
     position: relative;
     top: 0.5em;
