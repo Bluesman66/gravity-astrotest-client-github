@@ -1,13 +1,4 @@
 @import '../../shared/shared.css';
-.intro__buttons {
-    display: flex;
-    flex-direction: column;
-}
-
-.intro__buttons--margin-bottom {
-    margin-bottom: 1.5em;
-}
-
 .nice-button--intro {
     width: 18em;
     height: 3.5em;
@@ -64,9 +55,6 @@
     .intro__bottom-container {
         min-height: 0;
     }
-    .intro__buttons--margin-bottom {
-        margin-bottom: 3.15em;
-    }
     .nice-button--intro {
         height: 3em;
         padding: 1em;
@@ -90,9 +78,6 @@
 @media screen and (max-width: 414px) {
     .intro__bottom-container {
         min-height: 0;
-    }
-    .intro__buttons--margin-bottom {
-        margin-bottom: 2.58em;
     }
     .nice-button--intro {
         position: relative;

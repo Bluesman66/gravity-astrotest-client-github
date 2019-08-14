@@ -6,7 +6,8 @@ import {
     IntroBottomContainer,
     IntroText,
     IntroTitle,
-    IntroDesc 
+    IntroDesc,
+    IntroButtons 
 } from './intro-components';
 
 import {
@@ -30,11 +31,11 @@ const Intro = () => {
                     <IntroDesc>Where <strong>Astrological insight</strong> helps people connect</IntroDesc>
                 </IntroText>
                 <HorizontalDots mobileHide />
-                <div className="intro__buttons intro__buttons--margin-bottom">
+                <IntroButtons>
                     <Link className="nice-button
                         nice-button--intro
                         nice-button--get_started" to="/astro">Get Started</Link>
-                </div>
+                </IntroButtons>
             </IntroBottomContainer>                                
             
             <img className="intro-s-10 intro__shapes--hide" src={s_10} alt="" />
