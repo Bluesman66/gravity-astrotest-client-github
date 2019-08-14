@@ -1,9 +1,11 @@
 import styled from 'styled-components';
-import logo from './images/logo.png';
 
-const HeaderLogoImage = styled.div`
+const HeaderLogoImage = styled.div.attrs({
+    className: "HeaderLogoImage"
+})
+`
     display: inline-block;
-    background-image: url(${logo});
+    background-image: url(${require('./images/logo.png')});
     background-repeat: no-repeat;
     background-size: cover;
     height: ${props => props.size || "1.8em"};

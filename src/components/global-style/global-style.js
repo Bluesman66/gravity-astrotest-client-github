@@ -38,5 +38,4 @@ const GlobalStyle = createGlobalStyle`
         position: relative !important;
     }
 `
-
 export default GlobalStyle;

@@ -1,7 +1,10 @@
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 
-const HeaderLeftLink = styled(Link)`
+const HeaderLeftLink = styled(Link).attrs({
+    className: "HeaderLeftLink"
+})
+`
     display: flex;
     justify-content: space-between;
     align-items: center;

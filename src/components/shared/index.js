@@ -1,5 +1,7 @@
-import { device } from './device';
+import device from './device';
+import HorizontalDots from './horizontal-dots';
 
 export {
-    device
+    device,
+    HorizontalDots
 }

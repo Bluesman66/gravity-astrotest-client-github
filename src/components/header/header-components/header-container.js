@@ -1,6 +1,9 @@
 import styled from 'styled-components';
 
-const HeaderContainer = styled.header`    
+const HeaderContainer = styled.header.attrs({
+    className: "HeaderContainer"
+})
+`    
     position: absolute;
     margin-top: 0.5em;
     width: 100%;
