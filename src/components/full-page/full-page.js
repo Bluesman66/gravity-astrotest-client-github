@@ -15,7 +15,8 @@ import '../shared/transitions.css';
 import './overrides.css';
 
 const FullPage = () => (
-    <React.Fragment>        
+    <React.Fragment>
+        <GlobalStyle />
         <ReactFullpage
             navigation={true}
             render={({ state, fullpageApi }) => {
@@ -46,8 +47,7 @@ const FullPage = () => (
                     </ReactFullpage.Wrapper>
                 );
             }}
-        />
-        <GlobalStyle />
+        />        
     </React.Fragment>
 );
 

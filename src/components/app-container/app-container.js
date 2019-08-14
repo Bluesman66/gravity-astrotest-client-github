@@ -6,7 +6,7 @@ import bkg from './images/bkg1.png';
 const AppContainer = styled.div`
     width: 100vw;
     height: 100vh;    
-    font-family: 'Montserrat', sans-serif;    
+    font-family: 'Source Sans Pro', sans-serif;    
     line-height: 0.5em;
     color: #fff;
     background: url(${bkg}), linear-gradient(0deg, rgba(78, 76, 133, 0.0001) 0%, #3A3781 75%);    
