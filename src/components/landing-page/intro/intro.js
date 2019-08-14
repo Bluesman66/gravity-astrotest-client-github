@@ -7,7 +7,8 @@ import {
     IntroText,
     IntroTitle,
     IntroDesc,
-    IntroButtons 
+    IntroButtons,
+    IntroNiceButton 
 } from './intro-components';
 
 import {
@@ -32,9 +33,7 @@ const Intro = () => {
                 </IntroText>
                 <HorizontalDots mobileHide />
                 <IntroButtons>
-                    <Link className="nice-button
-                        nice-button--intro
-                        nice-button--get_started" to="/astro">Get Started</Link>
+                    <IntroNiceButton to="/astro">Get Started</IntroNiceButton>
                 </IntroButtons>
             </IntroBottomContainer>                                
             

@@ -1,15 +1,5 @@
 @import '../../shared/shared.css';
-.nice-button--intro {
-    width: 18em;
-    height: 3.5em;
-    padding-top: 1.3em;
-}
 
-.nice-button--get_started {
-    background: #DA4480;
-    margin-bottom: 1.9em;
-    z-index: 100;
-}
 
 .intro-s-10 {
     position: absolute;
@@ -55,10 +45,6 @@
     .intro__bottom-container {
         min-height: 0;
     }
-    .nice-button--intro {
-        height: 3em;
-        padding: 1em;
-    }
     .intro-line {
         right: 22vw;
         width: 2.6em;
@@ -78,10 +64,6 @@
 @media screen and (max-width: 414px) {
     .intro__bottom-container {
         min-height: 0;
-    }
-    .nice-button--intro {
-        position: relative;
-        left: 0.58em;
     }
     .intro__shapes--hide {
         display: none;
