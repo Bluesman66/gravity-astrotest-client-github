@@ -1,20 +1,4 @@
 @import '../../shared/shared.css';
-
-
-.intro-s-10 {
-    position: absolute;
-    top: 25vh;
-    left: 25vw;
-    height: 2em;
-}
-
-.intro-s-79 {
-    position: absolute;
-    top: 18vh;
-    right: 30vw;
-    height: 2em;
-}
-
 .intro-line {
     position: absolute;
     width: 3em;
@@ -64,8 +48,5 @@
 @media screen and (max-width: 414px) {
     .intro__bottom-container {
         min-height: 0;
-    }
-    .intro__shapes--hide {
-        display: none;
     }
 }

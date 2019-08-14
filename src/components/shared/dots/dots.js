@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-import { device } from '../../../shared';
+import device from '../device';
 
 // eslint-disable-next-line
 const Dots = styled.div.attrs({

@@ -1,10 +1,10 @@
 import React from 'react';
 
-import { Dots, Dot } from './horizontal-dots-components';
+import { Dots, Dot } from '../dots';
 
-const HorizontalDots = ({ mobileHide }) => {
+const HorizontalDots = ({ hide }) => {
     return (
-        <Dots hide={mobileHide}><Dot /><Dot /><Dot /></Dots>
+        <Dots hide={hide}><Dot /><Dot /><Dot /></Dots>
     );
 }
 
