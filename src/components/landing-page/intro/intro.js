@@ -29,7 +29,7 @@ const Intro = () => {
                     <IntroTitle>Welcome to Gravity</IntroTitle>
                     <IntroDesc>Where <strong>Astrological insight</strong> helps people connect</IntroDesc>
                 </IntroText>
-                <HorizontalDots mobileHide="true" />
+                <HorizontalDots mobileHide />
                 <div className="intro__buttons intro__buttons--margin-bottom">
                     <Link className="nice-button
                         nice-button--intro

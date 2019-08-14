@@ -12,7 +12,7 @@ const Dots = styled.div.attrs({
     justify-content: space-between;
     
     @media ${device.mobile425} {
-        display: ${props => props.hide === "true" ? "none" : "flex"};
+        display: ${props => props.hide && "none"};
     }
 `
 
