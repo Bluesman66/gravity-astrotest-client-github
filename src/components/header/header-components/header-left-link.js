@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 
+// eslint-disable-next-line
 const HeaderLeftLink = styled(Link).attrs({
     className: "HeaderLeftLink"
 })

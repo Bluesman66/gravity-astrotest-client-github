@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 
+// eslint-disable-next-line
 const NiceButton = styled(Link).attrs({
     className: "NiceButton"
 })

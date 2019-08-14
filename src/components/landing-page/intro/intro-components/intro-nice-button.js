@@ -2,6 +2,7 @@ import styled from 'styled-components';
 
 import { NiceButton, device } from '../../../shared';
 
+// eslint-disable-next-line
 const IntroNiceButton = styled(NiceButton).attrs({
     className: "IntroNiceButton"
 })

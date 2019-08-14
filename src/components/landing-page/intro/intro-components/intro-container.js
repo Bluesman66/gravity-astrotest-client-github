@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 
+// eslint-disable-next-line
 const IntroContainer = styled.div.attrs({
     className: "IntroContainer"
 })

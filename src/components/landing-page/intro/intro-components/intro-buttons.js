@@ -2,6 +2,7 @@ import styled from 'styled-components';
 
 import { device } from '../../../shared';
 
+// eslint-disable-next-line
 const IntroButtons = styled.div.attrs({
     className: "IntroButtons"
 })

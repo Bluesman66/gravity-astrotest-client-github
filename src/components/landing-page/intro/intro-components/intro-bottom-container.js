@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 import { device } from '../../../shared';
 
+// eslint-disable-next-line
 const IntroBottomContainer = styled.div.attrs({
     className: "IntroBottomContainer"
 })
