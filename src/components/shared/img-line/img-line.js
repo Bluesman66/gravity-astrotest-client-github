@@ -5,7 +5,7 @@ import device from '../device';
 // eslint-disable-next-line 
 const ImgLine = styled.img.attrs({
     className: "ImgLine",
-    src: require('./images/line.png')
+    src: require('./line.png')
 })
 `
     position: absolute;
@@ -14,6 +14,11 @@ const ImgLine = styled.img.attrs({
     right: ${props => props.right || "27vw"};
     width: ${props => props.width || "3em"};
     height: ${props => props.height || "0.2em"};
+
+    @media ${device.tablet1024} {        
+        right: 22vw;
+        width: 2.6em;    
+    }
 
     @media ${device.mobile425} {
         display: ${props => props.hide && "none"};   

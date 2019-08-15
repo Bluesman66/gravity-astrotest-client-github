@@ -14,13 +14,10 @@ import {
     HorizontalDots,
     ImgS10,
     ImgS79,
-    ImgLine
+    ImgLine,
+    ImgS154,
+    ImgS157
 } from '../../shared';
-
-import s_154 from './images/s-154.png';
-import s_157 from './images/s-157.png';
-
-import './intro.css';
 
 const Intro = () => {
     return (
@@ -39,9 +36,9 @@ const Intro = () => {
             <ImgS10 hide />
             <ImgS79 hide />
             <ImgLine hide />
-
-            <img className="intro-s-154 intro__shapes--hide" src={s_154} alt="" />
-            <img className="intro-s-157 intro__shapes--hide" src={s_157} alt="" />
+            <ImgS154 hide />
+            <ImgS157 hide />
+            
         </IntroContainer>
     );
 };

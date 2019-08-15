@@ -13,6 +13,10 @@ const IntroBottomContainer = styled.div.attrs({
     flex-direction: column;
     justify-content: space-between;
 
+    @media ${device.tablet1024} {
+        min-height: 0;
+    }
+
     @media ${device.mobile425} {
         height: 70%;
     }

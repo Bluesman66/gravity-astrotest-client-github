@@ -5,7 +5,7 @@ import device from '../device';
 // eslint-disable-next-line 
 const ImgS10 = styled.img.attrs({
     className: "ImgS10",
-    src: require('./images/s-10.png')
+    src: require('./s-10.png')
 })
 `
     position: absolute;

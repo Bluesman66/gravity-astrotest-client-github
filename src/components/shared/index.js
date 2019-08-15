@@ -4,6 +4,8 @@ import NiceButton from './nice-button';
 import ImgS10 from './img-s-10';
 import ImgS79 from './img-s-79';
 import ImgLine from './img-line';
+import ImgS154 from './img-s-154';
+import ImgS157 from './img-s-157';
 
 export {
     device,
@@ -11,5 +13,7 @@ export {
     NiceButton,
     ImgS10,
     ImgS79,
-    ImgLine
+    ImgLine,
+    ImgS154,
+    ImgS157
 }
