@@ -1,5 +1,18 @@
 import React from 'react';
 
+import { 
+    AstroTestContainer,
+    AstroTestDialogProps,
+    AstroTestContentProps,
+    AstroTestHeader,
+    AstroTestBody,
+    AstroTestControlPanel,
+    AstroTestTitle,
+    AstroTestGender,
+    AstroTestLabel,
+    AstroTestGenderButtons
+} from './astro-test-components';
+
 import male from './images/male.png';
 import female from './images/female.png';
 
@@ -7,17 +20,17 @@ import './astro-test.css';
 
 const AstroTest = () => {
     return (
-        <div className="astro-test" id="astro-test">
-            <div className="astro-test--dialog-props">
-                <div className="astro-test--content-props">
-                    <div className="astro-test__header"></div>
-                    <div className="astro-test__body">
-                        <div className="astro-test__control-panel">                            
-                            <div className="astro-test__title">Take the Astro-Test</div>
+        <AstroTestContainer>
+            <AstroTestDialogProps>
+                <AstroTestContentProps>
+                    <AstroTestHeader />
+                    <AstroTestBody>
+                        <AstroTestControlPanel>
+                            <AstroTestTitle>Take the Astro-Test</AstroTestTitle>
                             
-                            <div className="astro-test__gender">
-                                <div className="astro-test__label">Gender</div>                                
-                                <div className="astro-test__gender-buttons">
+                            <AstroTestGender>
+                                <AstroTestLabel>Gender</AstroTestLabel>                                
+                                <AstroTestGenderButtons>
                                     {/* eslint-disable-next-line */}
                                     <a className="nice-button 
                                         nice-button--gender
@@ -26,11 +39,11 @@ const AstroTest = () => {
                                     <a className="nice-button 
                                         nice-button--gender
                                         nice-button--female" href="#">Female <img className="nice-button--pict" src={female} alt=""/></a>
-                                </div>                                  
-                            </div>
+                                </AstroTestGenderButtons>                                  
+                            </AstroTestGender>
 
                             <div className="astro-test__dob">
-                                <div className="astro-test__label">Date of birth</div>                                
+                                <AstroTestLabel>Date of birth</AstroTestLabel>                                
                                 <div className="astro-test__dob-date">
                                     <select className="form-control astro-test__dob-day">
                                         <option disabled selected hidden>Day</option>
@@ -222,17 +235,17 @@ const AstroTest = () => {
                                 {/* eslint-disable-next-line */}
                                 <a className="nice-href" href="#">Privacy Policy</a>
                             </p>                            
-                        </div>
+                        </AstroTestControlPanel>
 
                         <div className="astro-test__banner-panel">
                             <div className="astro-test__banner">
                                 <p className="astro-test__banner-text">Astrology stood the test of time but is it still relevant in today’s scientific world?</p>
                             </div>
                         </div>
-                    </div>
-                </div>
-            </div>
-        </div>            
+                    </AstroTestBody>
+                </AstroTestContentProps>
+            </AstroTestDialogProps>
+        </AstroTestContainer>            
     );
 }
 
