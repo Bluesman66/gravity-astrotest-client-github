@@ -17,7 +17,10 @@ import {
     AstroTestLabel,
     AstroTestGenderButtons,
     AstroTestButtonMale,
-    AstroTestButtonFemale
+    AstroTestButtonFemale,
+    AstroTestDOB,
+    AstroTestDOBDate,
+    AstroTestDOBElement
 } from './astro-test-components';
 
 import './astro-test.css';
@@ -40,10 +43,10 @@ const AstroTest = () => {
                                 </AstroTestGenderButtons>                                  
                             </AstroTestGender>
 
-                            <div className="astro-test__dob">
+                            <AstroTestDOB>
                                 <AstroTestLabel>Date of birth</AstroTestLabel>                                
-                                <div className="astro-test__dob-date">
-                                    <select className="form-control astro-test__dob-day">
+                                <AstroTestDOBDate>
+                                    <AstroTestDOBElement width="30%" indent="0.2em">
                                         <option disabled selected hidden>Day</option>
                                         <option>1</option>
                                         <option>2</option>
@@ -76,8 +79,8 @@ const AstroTest = () => {
                                         <option>29</option>
                                         <option>30</option>
                                         <option>31</option>                                        
-                                    </select>
-                                    <select className="form-control astro-test__dob-month">
+                                    </AstroTestDOBElement>
+                                    <AstroTestDOBElement width="38%" indent="0.2em">
                                         <option disabled selected hidden>Month</option>
                                         <option>January</option>
                                         <option>February</option>
@@ -91,8 +94,8 @@ const AstroTest = () => {
                                         <option>October</option>
                                         <option>November</option>
                                         <option>December</option>
-                                    </select>
-                                    <select className="form-control astro-test__dob-year">
+                                    </AstroTestDOBElement>
+                                    <AstroTestDOBElement width="30%">
                                         <option disabled selected hidden>Year</option>
                                         <option>1900</option>
                                         <option>1901</option>
@@ -214,9 +217,9 @@ const AstroTest = () => {
                                         <option>2016</option>
                                         <option>2017</option>
                                         <option>2018</option>                                        
-                                    </select>
-                                </div>
-                            </div>
+                                    </AstroTestDOBElement>
+                                </AstroTestDOBDate>
+                            </AstroTestDOB>
 
                             <a className="nice-button
                                 nice-button--astro-test

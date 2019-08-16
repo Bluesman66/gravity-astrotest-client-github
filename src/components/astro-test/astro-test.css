@@ -2,48 +2,6 @@
 
 /* === DESKTOP === */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.nice-button--male-symbol {
-    font-size: 1em;
-}
-
-.nice-button--female-symbol {
-    font-size: 1em;
-}
-
-.astro-test__dob {
-    width: 11em !important;
-}
-
-.astro-test__dob-date {
-    width: 100%;
-    display: flex;
-    justify-content: baseline;
-}
-
-.astro-test__dob-day {
-    flex-basis: 30% !important;
-    font-size: 0.5em !important;
-    height: 2.8em !important;
-    margin-right: 0.2em;
-}
-
 .astro-test__dob-month {
     flex-basis: 48% !important;
     font-size: 0.5em !important;

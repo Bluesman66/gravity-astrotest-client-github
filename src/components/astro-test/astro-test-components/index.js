@@ -10,6 +10,9 @@ import AstroTestLabel from './astro-test-label';
 import AstroTestGenderButtons from './astro-test-gender-buttons';
 import AstroTestButtonMale from './astro-test-button-male';
 import AstroTestButtonFemale from './astro-test-button-female';
+import AstroTestDOB from './astro-test-dob';
+import AstroTestDOBDate from './astro-test-dob-date';
+import AstroTestDOBElement from './astro-test-dob-element';
 
 export {
     AstroTestContainer,
@@ -23,5 +26,8 @@ export {
     AstroTestLabel,
     AstroTestGenderButtons,
     AstroTestButtonMale,
-    AstroTestButtonFemale
+    AstroTestButtonFemale,
+    AstroTestDOB, 
+    AstroTestDOBDate,
+    AstroTestDOBElement
 }
