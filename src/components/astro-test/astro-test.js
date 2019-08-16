@@ -1,5 +1,10 @@
 import React from 'react';
 
+import {
+    ImgMale,
+    ImgFemale 
+} from '../shared';
+
 import { 
     AstroTestContainer,
     AstroTestDialogProps,
@@ -14,9 +19,6 @@ import {
     AstroTestButtonMale,
     AstroTestButtonFemale
 } from './astro-test-components';
-
-import male from './images/male.png';
-import female from './images/female.png';
 
 import './astro-test.css';
 
@@ -33,10 +35,8 @@ const AstroTest = () => {
                             <AstroTestGender>
                                 <AstroTestLabel>Gender</AstroTestLabel>                                
                                 <AstroTestGenderButtons>                                    
-                                    <AstroTestButtonMale >Male <img className="nice-button--pict" src={male} alt=""/> 
-                                    </AstroTestButtonMale>                                    
-                                    <AstroTestButtonFemale>Female <img className="nice-button--pict" src={female} alt=""/>
-                                    </AstroTestButtonFemale>
+                                    <AstroTestButtonMale>Male <ImgMale /></AstroTestButtonMale>                                    
+                                    <AstroTestButtonFemale>Female <ImgFemale /> </AstroTestButtonFemale>
                                 </AstroTestGenderButtons>                                  
                             </AstroTestGender>
 

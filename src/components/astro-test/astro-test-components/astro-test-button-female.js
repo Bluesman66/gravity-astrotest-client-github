@@ -7,12 +7,12 @@ import {
 import {
     NiceButtonGenderMixin,
     NiceButtonFemaleMixin
-} from '../../mixins';
+} from '../../shared/mixins';
 
 
 // eslint-disable-next-line
 const AstroTestButtonFemale = styled(NiceButton).attrs({
-    className: "AstroTestButtonMale"
+    className: "AstroTestButtonFemale"
 })
 `    
     ${NiceButtonGenderMixin}

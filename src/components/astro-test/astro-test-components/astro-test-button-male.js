@@ -7,7 +7,7 @@ import {
 import {
     NiceButtonGenderMixin,
     NiceButtonMaleMixin
-} from '../../mixins';
+} from '../../shared/mixins';
 
 
 // eslint-disable-next-line

@@ -7,6 +7,6 @@ const NiceButtonGenderMixin = css`
     box-shadow: none;
     border-radius: 2em;
     font-weight: normal;  
-`;
+`
 
 export default NiceButtonGenderMixin;

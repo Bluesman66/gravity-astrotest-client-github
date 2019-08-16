@@ -6,6 +6,8 @@ import ImgS79 from './img-s-79';
 import ImgLine from './img-line';
 import ImgS154 from './img-s-154';
 import ImgS157 from './img-s-157';
+import ImgMale from './img-male';
+import ImgFemale from './img-female';
 
 export {
     device,
@@ -15,5 +17,7 @@ export {
     ImgS79,
     ImgLine,
     ImgS154,
-    ImgS157
+    ImgS157,
+    ImgMale,
+    ImgFemale
 }
