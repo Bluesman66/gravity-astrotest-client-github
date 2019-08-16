@@ -15,28 +15,15 @@
 
 
 
-.nice-button--gender {
-    width: 9.4em;
-    height: 3em;
-    padding: 0.7em;
-    box-shadow: none;
-    border-radius: 2em;
-    font-weight: normal;
-}
 
-.nice-button--male {
-    background: #EFF0F5;
-    color: #333F48;
-}
+
+
 
 .nice-button--male-symbol {
     font-size: 1em;
 }
 
-.nice-button--female {
-    background: #626BA3;
-    color: #fff;
-}
+
 
 .nice-button--female-symbol {
     font-size: 1em;

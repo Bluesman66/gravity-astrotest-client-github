@@ -8,6 +8,8 @@ import AstroTestTitle from './astro-test-title';
 import AstroTestGender from './astro-test-gender';
 import AstroTestLabel from './astro-test-label';
 import AstroTestGenderButtons from './astro-test-gender-buttons';
+import AstroTestButtonMale from './astro-test-button-male';
+import AstroTestButtonFemale from './astro-test-button-female';
 
 export {
     AstroTestContainer,
@@ -19,5 +21,7 @@ export {
     AstroTestTitle,
     AstroTestGender,
     AstroTestLabel,
-    AstroTestGenderButtons
+    AstroTestGenderButtons,
+    AstroTestButtonMale,
+    AstroTestButtonFemale
 }

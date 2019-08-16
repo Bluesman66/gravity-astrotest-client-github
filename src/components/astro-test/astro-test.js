@@ -10,7 +10,9 @@ import {
     AstroTestTitle,
     AstroTestGender,
     AstroTestLabel,
-    AstroTestGenderButtons
+    AstroTestGenderButtons,
+    AstroTestButtonMale,
+    AstroTestButtonFemale
 } from './astro-test-components';
 
 import male from './images/male.png';
@@ -30,15 +32,11 @@ const AstroTest = () => {
                             
                             <AstroTestGender>
                                 <AstroTestLabel>Gender</AstroTestLabel>                                
-                                <AstroTestGenderButtons>
-                                    {/* eslint-disable-next-line */}
-                                    <a className="nice-button 
-                                        nice-button--gender
-                                        nice-button--male" href="#">Male <img className="nice-button--pict" src={male} alt=""/> </a>
-                                    {/* eslint-disable-next-line */}    
-                                    <a className="nice-button 
-                                        nice-button--gender
-                                        nice-button--female" href="#">Female <img className="nice-button--pict" src={female} alt=""/></a>
+                                <AstroTestGenderButtons>                                    
+                                    <AstroTestButtonMale >Male <img className="nice-button--pict" src={male} alt=""/> 
+                                    </AstroTestButtonMale>                                    
+                                    <AstroTestButtonFemale>Female <img className="nice-button--pict" src={female} alt=""/>
+                                    </AstroTestButtonFemale>
                                 </AstroTestGenderButtons>                                  
                             </AstroTestGender>
 
