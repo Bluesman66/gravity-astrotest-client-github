@@ -20,7 +20,8 @@ import {
     AstroTestButtonFemale,
     AstroTestDOB,
     AstroTestDOBDate,
-    AstroTestDOBElement
+    AstroTestDOBElement,
+    AstroTestButtonTakeTest
 } from './astro-test-components';
 
 import './astro-test.css';
@@ -39,7 +40,7 @@ const AstroTest = () => {
                                 <AstroTestLabel>Gender</AstroTestLabel>                                
                                 <AstroTestGenderButtons>                                    
                                     <AstroTestButtonMale>Male <ImgMale /></AstroTestButtonMale>                                    
-                                    <AstroTestButtonFemale>Female <ImgFemale /> </AstroTestButtonFemale>
+                                    <AstroTestButtonFemale>Female <ImgFemale /></AstroTestButtonFemale>
                                 </AstroTestGenderButtons>                                  
                             </AstroTestGender>
 
@@ -221,9 +222,7 @@ const AstroTest = () => {
                                 </AstroTestDOBDate>
                             </AstroTestDOB>
 
-                            <a className="nice-button
-                                nice-button--astro-test
-                                nice-button--astro-test_get_started" href="#reports" data-toggle="modal">Take a test</a>
+                            <AstroTestButtonTakeTest>Take a test</AstroTestButtonTakeTest>
 
                             <div className="astro-test__sign-in">Would rather skip this?&nbsp;
                                 {/* eslint-disable-next-line */}
