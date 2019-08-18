@@ -16,8 +16,7 @@ import {
     AstroTestGender,
     AstroTestLabel,
     AstroTestGenderButtons,
-    AstroTestButtonMale,
-    AstroTestButtonFemale,
+    AstroTestButtonGender,    
     AstroTestDOB,
     AstroTestDOBDate,
     AstroTestDOBElement,
@@ -39,8 +38,10 @@ const AstroTest = () => {
                             <AstroTestGender>
                                 <AstroTestLabel>Gender</AstroTestLabel>                                
                                 <AstroTestGenderButtons>                                    
-                                    <AstroTestButtonMale>Male <ImgMale /></AstroTestButtonMale>                                    
-                                    <AstroTestButtonFemale>Female <ImgFemale /></AstroTestButtonFemale>
+                                    <AstroTestButtonGender
+                                        bkg="#EFF0F5" clr="#333F48">Male <ImgMale /></AstroTestButtonGender>                                    
+                                    <AstroTestButtonGender
+                                        bkg="#626BA3" clr="#fff">Female <ImgFemale /></AstroTestButtonGender>
                                 </AstroTestGenderButtons>                                  
                             </AstroTestGender>
 
