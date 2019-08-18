@@ -13,6 +13,8 @@ import AstroTestDOB from './astro-test-dob';
 import AstroTestDOBDate from './astro-test-dob-date';
 import AstroTestDOBElement from './astro-test-dob-element';
 import AstroTestButtonTakeTest from './astro-test-button-take-test';
+import AstroTestText from './astro-test-text';
+import AstroTestTextBanner from './astro-test-text-banner';
 
 export {
     AstroTestContainer,
@@ -29,5 +31,7 @@ export {
     AstroTestDOB, 
     AstroTestDOBDate,
     AstroTestDOBElement,
-    AstroTestButtonTakeTest
+    AstroTestButtonTakeTest,
+    AstroTestText,
+    AstroTestTextBanner
 }

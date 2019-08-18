@@ -5,8 +5,7 @@ import {
 } from '../../shared';
 
 import {
-    NiceButtonLargeMixin,
-    NiceButtonPinkMixin
+    NiceButtonLargeMixin
 } from '../../shared/mixins';
 
 
@@ -18,7 +17,6 @@ const AstroTestButtonTakeTest = styled(NiceButton).attrs({
 })
 `    
     ${NiceButtonLargeMixin}
-    ${NiceButtonPinkMixin}
 `
 
 export default AstroTestButtonTakeTest;

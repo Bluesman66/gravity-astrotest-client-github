@@ -2,39 +2,16 @@
 
 /* === DESKTOP === */
 
-
-
-.astro-test__sign-in {
-    font-style: normal;
-    font-weight: normal;
-    font-size: 0.6em;
-    line-height: 1em;
-    color: #333F48;
-}
-
-.astro-test__agreement {
-    width: 25em;
-    margin: 0 auto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 0.5em;
-    line-height: 1.2em;
-    text-align: center;
-    color: #333F48;
-}
-
 .astro-test__banner-panel {
     width: 50%;
     height: 100%;
-    background: url('images/bkg3.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    background: url('images/bkg3.png') no-repeat center;
     border-top-right-radius: 0.4em;
     border-bottom-right-radius: 0.4em;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 
 .astro-test__banner {
@@ -44,26 +21,12 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-}
-
-.astro-test__banner-text {
-    width: 80%;
-    margin: 0 auto;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 1.3em;
-    line-height: 1.1em;
-    text-align: center;
-    color: #DA4480;
+    align-items: center;
 }
 
 /* === TABLET === */
 
 @media screen and (max-width: 1024px) {    
-        
-    
-    
-    
     
     .astro-test__banner-panel {
         width: 100%;
@@ -73,6 +36,7 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
+        align-items: center;
     }
     .astro-test__banner {
         height: 80%;
@@ -81,31 +45,25 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
+        align-items: center;
         border-radius: 0.4em;
     }
-    .astro-test__banner-text {
-        font-size: 1.2em;
-    }
+    
 }
 
 /* === SMALL DESKTOP === */
 
-
-
 /* === PHONE === */
 
 @media screen and (max-width: 414px) {    
-    
-    
-    
-    
-    
+        
     .astro-test__banner-panel {
         width: 100%;
         height: 24%;
         display: flex;
         flex-direction: column;
         justify-content: flex-end;
+        align-items: center;
     }
     .astro-test__banner {
         height: 60%;
@@ -114,15 +72,7 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
+        align-items: center;
     }
-    .astro-test__banner-text {
-        width: 80%;
-        margin: 0 auto;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 0.96em;
-        line-height: 1.2em;
-        text-align: center;
-        color: #DA4480;
-    }
+    
 }

@@ -2,7 +2,8 @@ import React from 'react';
 
 import {
     ImgMale,
-    ImgFemale 
+    ImgFemale,
+    NiceRef 
 } from '../shared';
 
 import { 
@@ -20,7 +21,9 @@ import {
     AstroTestDOB,
     AstroTestDOBDate,
     AstroTestDOBElement,
-    AstroTestButtonTakeTest
+    AstroTestButtonTakeTest,
+    AstroTestText,
+    AstroTestTextBanner    
 } from './astro-test-components';
 
 import './astro-test.css';
@@ -41,7 +44,7 @@ const AstroTest = () => {
                                     <AstroTestButtonGender
                                         bkg="#EFF0F5" clr="#333F48">Male <ImgMale /></AstroTestButtonGender>                                    
                                     <AstroTestButtonGender
-                                        bkg="#626BA3" clr="#fff">Female <ImgFemale /></AstroTestButtonGender>
+                                        bkg="#626BA3">Female <ImgFemale /></AstroTestButtonGender>
                                 </AstroTestGenderButtons>                                  
                             </AstroTestGender>
 
@@ -223,24 +226,22 @@ const AstroTest = () => {
                                 </AstroTestDOBDate>
                             </AstroTestDOB>
 
-                            <AstroTestButtonTakeTest>Take a test</AstroTestButtonTakeTest>
+                            <AstroTestButtonTakeTest bkg="#DA4480">Take a test</AstroTestButtonTakeTest>
 
-                            <div className="astro-test__sign-in">Would rather skip this?&nbsp;
-                                {/* eslint-disable-next-line */}
-                                <a className="nice-href" href="#">Sign in</a>
-                            </div>
+                            <AstroTestText fontSize="0.6em" lineHeight="1em">Would rather skip this?&nbsp;                                
+                                <NiceRef>Sign in</NiceRef>
+                            </AstroTestText>
 
-                            <p className="astro-test__agreement">We will never share your data. By taking the test you agree to the&nbsp;
-                                {/* eslint-disable-next-line */}
-                                <a className="nice-href" href="#">Terms and Conditions</a>&nbsp;and&nbsp;
-                                {/* eslint-disable-next-line */}
-                                <a className="nice-href" href="#">Privacy Policy</a>
-                            </p>                            
+                            <AstroTestText fontSize="0.5em" lineHeight="1.2em">We will never share your data. By taking the test you agree to the&nbsp;                                
+                                <NiceRef>Terms and Conditions</NiceRef>&nbsp;and&nbsp;<NiceRef>Privacy Policy</NiceRef>
+                            </AstroTestText>                            
                         </AstroTestControlPanel>
 
                         <div className="astro-test__banner-panel">
                             <div className="astro-test__banner">
-                                <p className="astro-test__banner-text">Astrology stood the test of time but is it still relevant in today’s scientific world?</p>
+                                <AstroTestTextBanner>
+                                    Astrology stood the test of time but is it still relevant in today’s scientific world?
+                                </AstroTestTextBanner>
                             </div>
                         </div>
                     </AstroTestBody>

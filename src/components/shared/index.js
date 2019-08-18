@@ -9,6 +9,7 @@ import ImgS154 from './img-s-154';
 import ImgS157 from './img-s-157';
 import ImgMale from './img-male';
 import ImgFemale from './img-female';
+import NiceRef from './nice-ref';
 
 export {
     device,
@@ -21,5 +22,6 @@ export {
     ImgS154,
     ImgS157,
     ImgMale,
-    ImgFemale
+    ImgFemale,
+    NiceRef
 }
