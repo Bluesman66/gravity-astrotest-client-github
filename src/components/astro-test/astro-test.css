@@ -2,52 +2,16 @@
 
 /* === DESKTOP === */
 
-.astro-test__banner-panel {
-    width: 50%;
-    height: 100%;
-    background: url('images/bkg3.png') no-repeat center;
-    border-top-right-radius: 0.4em;
-    border-bottom-right-radius: 0.4em;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
 
-.astro-test__banner {
-    height: 45%;
-    background: #fff;
-    opacity: 0.8;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
+
+
 
 /* === TABLET === */
 
 @media screen and (max-width: 1024px) {    
     
-    .astro-test__banner-panel {
-        width: 100%;
-        height: 45%;
-        border-radius: 0.4em;
-        background: none;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-    .astro-test__banner {
-        height: 80%;
-        background: #fff;
-        opacity: 0.8;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        border-radius: 0.4em;
-    }
+    
+    
     
 }
 
@@ -57,22 +21,7 @@
 
 @media screen and (max-width: 414px) {    
         
-    .astro-test__banner-panel {
-        width: 100%;
-        height: 24%;
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-end;
-        align-items: center;
-    }
-    .astro-test__banner {
-        height: 60%;
-        background: #fff;
-        opacity: 0.8;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
+    
+    
     
 }

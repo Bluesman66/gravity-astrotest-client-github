@@ -23,7 +23,9 @@ import {
     AstroTestDOBElement,
     AstroTestButtonTakeTest,
     AstroTestText,
-    AstroTestTextBanner    
+    AstroTestTextBanner,
+    AstroTestBannerPanel,
+    AstroTestBanner    
 } from './astro-test-components';
 
 import './astro-test.css';
@@ -237,13 +239,13 @@ const AstroTest = () => {
                             </AstroTestText>                            
                         </AstroTestControlPanel>
 
-                        <div className="astro-test__banner-panel">
-                            <div className="astro-test__banner">
+                        <AstroTestBannerPanel>
+                            <AstroTestBanner>
                                 <AstroTestTextBanner>
                                     Astrology stood the test of time but is it still relevant in today’s scientific world?
                                 </AstroTestTextBanner>
-                            </div>
-                        </div>
+                            </AstroTestBanner>
+                        </AstroTestBannerPanel>
                     </AstroTestBody>
                 </AstroTestContentProps>
             </AstroTestDialogProps>
