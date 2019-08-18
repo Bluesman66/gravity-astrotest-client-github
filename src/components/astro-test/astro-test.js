@@ -28,8 +28,6 @@ import {
     AstroTestBanner    
 } from './astro-test-components';
 
-import './astro-test.css';
-
 const AstroTest = () => {
     return (
         <AstroTestContainer>

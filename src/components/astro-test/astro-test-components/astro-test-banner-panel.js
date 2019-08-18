@@ -9,7 +9,10 @@ const AstroTestBannerPanel = styled.div.attrs({
 `    
     width: 50%;
     height: 100%;
-    background: url(${require('./images/bkg3.png')}) no-repeat center;
+    background: url(${require('./images/bkg3.png')});
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     border-top-right-radius: 0.4em;
     border-bottom-right-radius: 0.4em;
     display: flex;
